@@ -13,28 +13,29 @@ private:
     int mileage;
 
 public:
-    // »ı¼ºÀÚ
+    // ìƒì„±ì
     UsedCar(string _make, string _model, int _year, double _price, int _mileage);
 
-    // ¼Ò¸êÀÚ
+    // ì†Œë©¸ì
     ~UsedCar();
 
-    // Á¢±ÙÀÚ (getter)
+    // ì ‘ê·¼ì (getter)
     string getMake();
     string getModel();
     int getYear();
     double getPrice();
     int getMileage();
 
-    // ¼³Á¤ÀÚ (setter)
+    // ì„¤ì •ì (setter)
     void setYear(int _year);
     void setMileage(int _mileage);
 
-    // ÁÖÇà°Å¸® ¹× ¿¬½Ä¿¡ µû¸¥ ÇÒÀÎ °è»ê
+    // ì£¼í–‰ê±°ë¦¬ ë° ì—°ì‹ì— ë”°ë¥¸ í• ì¸ ê³„ì‚°
     double calculateDiscountedPrice();
 
-    // Â÷·® Á¤º¸ Ãâ·Â
+    // ì°¨ëŸ‰ ì •ë³´ ì¶œë ¥
     void displayInfo();
 };
 
+//ì½”ë“œì— ì¶”ê°€í•˜ê¸°
 #endif
